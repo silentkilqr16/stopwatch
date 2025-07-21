@@ -1,0 +1,43 @@
+body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: grey;
+}
+#myh1{
+      font-size:4rem;
+      font-family: "Arial";
+      color: black;
+}
+#container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+      border: 5px solid; 
+      border-radius: 50px;
+      background-color: white;
+}
+#display{
+      font-size: 5rem;
+      font-family: Monospace;
+      font-weight: Bold;
+      color: maroon;
+}
+#controls button{
+      font-size: 1.5rem;
+      font-weight: Bold;
+      padding: 10px 20px;
+      transition: background-color 0.5s ease;
+}
+#startbtn{
+      background-color: lightgreen;
+}
+#stopbtn{
+      background-color: red;
+}
+#resetbtn{
+      background-color: skyblue;
+}
+
+      
